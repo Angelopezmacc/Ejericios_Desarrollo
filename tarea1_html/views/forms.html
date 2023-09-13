@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Creando un formulario</h1>
+
+    <form name="datosBásicos" action="./siu.html" method="post">
+        <h2><img src="../assets/img/forms_icon.svg" width="100px">Datos básicos</h2>
+
+        <label for="perfil">Escriba su perfil</label> <br>
+        <textarea name="perfil" id="perfil" cols="70" rows="10"></textarea>
+        <br>
+        <br>
+
+        <label for="tipoIden">Tipo de identificación</label>
+        <select name="tipoIden" id="tipoIden">
+            <option value="0"> Seleccione el tipo de identificación</option>
+            <option value="NUIP">Número único de identificación</option>
+            <option value="CC">Cédula</option>
+            <option value="CE">Cédula de extranjería</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="numIden">Número de identificación</label>
+        <input type="" name="numIden" id="numIden">
+        <br>
+        <br>
+
+        <label for="apellido">Apellidos</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <br>
+
+        <label for="nombres">Nombres</label>
+        <input type="text" name="nombres" id="nombres">
+        <br>
+        <br>
+
+        <label for="gender">Género</label>
+        <input type="radio" name="gender" id="gender"> Femenino
+        <input type="radio" name="gender" id="gender" checked> Masculino
+        <br>
+        <br>
+
+        <label for="estCiv">Estado civil</label>
+        <input type="" name="estCiv" id="estCiv">
+        <input type="radio" name="estCiv" id="estCiv" checked> Soltero
+        <input type="radio" name="estCiv" id="estCiv" > Casado
+        <input type="radio" name="estCiv" id="estCiv" > Unión Libre
+        <input type="radio" name="estCiv" id="estCiv" > Viudo(a)
+        <br>
+        <br>
+
+        <label for="tel">Número telefónico de contacto</label>
+        <input type="" name="tel" id="tel">
+        <br>
+        <br>
+
+        <label for="dir">Dirección de residencia</label>
+        <input type="text" name="dir" id="dir">
+        <br>
+        <br>
+
+        <label for="mail">Correo electrónico de contacto</label>
+        <input type="mail" name="mail" id="mail">
+        <br>
+        <br>
+
+        <!-- <label for="tipDoc"></label>
+        <input type="range" name="" id=""> -->
+
+    </form>
+</body>
+</html>
