@@ -11,11 +11,13 @@
     <form name="datosBásicos" action="./siu.html" method="post">
         <h2><img src="../assets/img/forms_icon.svg" width="100px">Datos básicos</h2>
 
+        <!-- Perfil -->
         <label for="perfil">Escriba su perfil</label> <br>
-        <textarea name="perfil" id="perfil" cols="70" rows="10"></textarea>
+        <textarea name="perfil" id="perfil" cols="50" rows="10"></textarea>
         <br>
         <br>
 
+        <!-- Tipo de identificación -->
         <label for="tipoIden">Tipo de identificación</label>
         <select name="tipoIden" id="tipoIden">
             <option value="0"> Seleccione el tipo de identificación</option>
@@ -26,29 +28,33 @@
         <br>
         <br>
 
+        <!-- Número de identificación -->
         <label for="numIden">Número de identificación</label>
-        <input type="" name="numIden" id="numIden">
+        <input type="number" name="numIden" id="numIden">
         <br>
         <br>
 
+        <!-- Apellidos -->
         <label for="apellido">Apellidos</label>
         <input type="text" name="apellido" id="apellido">
         <br>
         <br>
 
+        <!-- Nombres -->
         <label for="nombres">Nombres</label>
         <input type="text" name="nombres" id="nombres">
         <br>
         <br>
 
+        <!-- Género -->
         <label for="gender">Género</label>
         <input type="radio" name="gender" id="gender"> Femenino
         <input type="radio" name="gender" id="gender" checked> Masculino
         <br>
         <br>
 
+        <!-- Estado civil -->
         <label for="estCiv">Estado civil</label>
-        <input type="" name="estCiv" id="estCiv">
         <input type="radio" name="estCiv" id="estCiv" checked> Soltero
         <input type="radio" name="estCiv" id="estCiv" > Casado
         <input type="radio" name="estCiv" id="estCiv" > Unión Libre
@@ -56,24 +62,28 @@
         <br>
         <br>
 
+        <!-- Número de teléfono -->
         <label for="tel">Número telefónico de contacto</label>
-        <input type="" name="tel" id="tel">
+        <input type="number" name="tel" id="tel">
         <br>
         <br>
 
+        <!-- Dirección -->
         <label for="dir">Dirección de residencia</label>
         <input type="text" name="dir" id="dir">
         <br>
         <br>
 
+        <!-- Correo -->
         <label for="mail">Correo electrónico de contacto</label>
         <input type="mail" name="mail" id="mail">
         <br>
         <br>
 
-        <!-- <label for="tipDoc"></label>
-        <input type="range" name="" id=""> -->
-
+        <!-- Botón de Enviar -->
+        <input type="submit" value="Enviar">
+        <!-- Botón de Restablecer -->
+        <input type="reset" value="Restablecer">
     </form>
 </body>
 </html>
