@@ -1,0 +1,23 @@
+/* body {background-color: red;}
+h2{background-color: aqua;} */
+body{
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+
+
+body {background-image: url("../img/siu.jpg");
+    background-repeat: no-repeat;
+}
+
+h2{
+    background-color: aqua;
+    color: indigo
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: lighter;
+}
