@@ -1,5 +1,35 @@
-/* body {background-color: red;}
-h2{background-color: aqua;} */
+body {background-color: whitesmoke;}
+
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+.contenedor2{
+    text-align: right;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    color: aquamarine;
+    text-align: right;
+}
+
+
+
+/* h2{background-color: aqua;}
 body{
     margin: 0;
     width: auto;
@@ -20,4 +50,4 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
     font-weight: lighter;
-}
+} */
